@@ -1,3 +1,6 @@
+local range = 16
+local delay = 5
+local single = false
 local function load(name)
     local file = fs.open(name, "r")
     local data = file.readAll()
@@ -110,10 +113,11 @@ if ores == nil then
 end
 
 local geo = peripheral.find("geoScanner")
-while true do
+local loop = true
+while loop do
     term.clear()
     term.setCursorPos(1,1)
-    local scan = geo.scan(8)
+    local scan = geo.scan(range)
     if scan == nil then
         return
     end
@@ -144,5 +148,6 @@ while true do
         end
         print(short(b[1].name), size, direction(b[1]))
     end
-    sleep(3)
+    if single then loop = false
+    else sleep(delay) end
 end
