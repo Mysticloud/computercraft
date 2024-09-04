@@ -13,7 +13,7 @@ local BASE_URL = "https://raw.githubusercontent.com/EinsWlanKabel/computercraft/
 
 local files = {
     ["./youcube.lua"] = BASE_URL .. "youcube.lua",
-    ["./spotify.lua"] = BASE_URL .. "spotify.lua",
+    ["./play.lua"] = BASE_URL .. "play.lua",
     ["./lib/youcubeapi.lua"] = BASE_URL .. "lib/youcubeapi.lua",
     ["./lib/numberformatter.lua"] = BASE_URL .. "lib/numberformatter.lua",
     ["./lib/semver.lua"] = BASE_URL .. "lib/semver.lua",
