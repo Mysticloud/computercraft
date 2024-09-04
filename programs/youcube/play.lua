@@ -8,6 +8,6 @@ elseif default ~= "" then
     shell.run("youcube --lp --sh --nv "..default)
 else
     print("Usage:")
-    print("spotify <spotify link>")
-    print("spotify <youtube search terms>")
+    print("play <youtube link>")
+    print("play <youtube search terms>")
 end
