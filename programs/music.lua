@@ -1,6 +1,6 @@
 ---------------------------------------------
--- Change this to false to disable all discs 
--- from the more music discs mod
+-- Whether or not the more music discs mod
+-- is in the pack
 local enableMoreDiscs = false
 ---------------------------------------------
 
@@ -26,17 +26,17 @@ local m = {
     ["mellohi"]             = {"minecraft:music_disc.mellohi", 96, 2},
     ["otherside"]           = {"minecraft:music_disc.otherside", 195, 2},
     ["pigstep"]             = {"minecraft:music_disc.pigstep", 148, 2},
-    --["relic"]               = {"minecraft:music_disc.relic", 218, 2},
+    ["relic"]               = {"minecraft:music_disc.relic", 218, 2},
     ["stal"]                = {"minecraft:music_disc.stal", 150, 2},
     ["strad"]               = {"minecraft:music_disc.strad", 188, 2},
     ["wait"]                = {"minecraft:music_disc.wait", 238, 2},
     ["ward"]                = {"minecraft:music_disc.ward", 251, 2},
-    ["daze"]                = {"alexsmobs:music_disc_daze", 191, 2},
-    ["thime"]               = {"alexsmobs:music_disc_thime", 314, 2},
+    --["daze"]                = {"alexsmobs:music_disc_daze", 191, 2},
+    --["thime"]               = {"alexsmobs:music_disc_thime", 314, 2},
     ["aria_biblio"]         = {"ars_nouveau:aria_biblio", 245, 2},
     ["the_sound_of_glass"]  = {"ars_nouveau:thistle_the_sound_of_glass", 182, 2},
     ["the_wild_hunt"]       = {"ars_nouveau:firel_the_wild_hunt", 121, 2},
-    ["kobblestone"]         = {"kobolds:music_kobblestone", 164, 2},
+    --["kobblestone"]         = {"kobolds:music_kobblestone", 164, 2},
     ["mammoth"]             = {"undergarden:music.disc.mammoth", 194, 2},
     ["limax_maximus"]       = {"undergarden:music.disc.limax_maximus", 161, 2},
     ["relict"]              = {"undergarden:music.disc.relict", 187, 2},
@@ -49,13 +49,13 @@ local m = {
     ["venomous_encounter"]  = {"blue_skies:records.venomous_encounter", 153, 2},
     ["endure_emptiness"]    = {"botania:music.gaia1", 202, 2},
     ["fight_for_quiescence"] = {"botania:music.gaia2", 227, 2},
-    ["wither_waltz"]        = {"bygonenether:wither_waltz", 253, 2},
-    ["delve_deeper"]        = {"conjurer_illager:records.delve_deeper", 229, 2},
-    ["the_bright_side"]     = {"create_confectionery:the_bright_side", 162, 2},
+    --["wither_waltz"]        = {"bygonenether:wither_waltz", 253, 2},
+    --["delve_deeper"]        = {"conjurer_illager:records.delve_deeper", 229, 2},
+    --["the_bright_side"]     = {"create_confectionery:the_bright_side", 162, 2},
     ["parousia"]            = {"eidolon:parousia", 185, 2},
-    ["feywild_soundtrack"]  = {"feywild:feywild_soundtrack", 94, 2},
-    ["calidum"]             = {"idas:calidum", 196, 2},
-    ["slither"]             = {"idas:slither", 120, 2},
+    --["feywild_soundtrack"]  = {"feywild:feywild_soundtrack", 94, 2},
+    --["calidum"]             = {"idas:calidum", 196, 2},
+    --["slither"]             = {"idas:slither", 120, 2},
     ["endermosh"]           = {"quark:music.endermosh", 190, 2},
     ["findings"]            = {"twilightforest:music_disc.twilightforest.findings", 197, 2},
     ["home"]                = {"twilightforest:music_disc.twilightforest.home", 216, 2},
@@ -66,6 +66,13 @@ local m = {
     ["superstitious"]       = {"twilightforest:music_disc.twilightforest.superstitious", 193, 2},
     ["thread"]              = {"twilightforest:music_disc.twilightforest.thread", 202, 2},
     ["wayfarer"]            = {"twilightforest:music_disc.twilightforest.wayfarer", 174, 2},
+    ["aether_tune"]         = {"aether:item.music_disc.aether_tune", 150},
+    ["chinchilla"]          = {"aether:item.music_disc.chinchilla", 164},
+    ["high"]                = {"aether:item.music_disc.high", 141},
+    ["sus"]                 = {"gtceu:sus", 42},
+    ["legacy"]              = {"lost_aether_content:record.legacy", 297},
+    ["sovereign_of_the_skies"] = {"lost_aether_content:record.sovereign_of_the_skies", 222},
+    ["ascending_dawn"]      = {"aether:item.music_disc.ascending_dawn", 351},
 }
 
 local more = {
