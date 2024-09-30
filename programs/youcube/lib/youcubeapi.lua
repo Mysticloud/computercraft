@@ -84,14 +84,14 @@ function API:detect_bestest_server(_server, _verbose)
 
         if ok then
             if _verbose then
-                print("Trying to connect to:", "Mysticlouds YouCube")
+                print("Trying to connect to:", "*EinsWlanKabel*:5000")
             end
             local websocket, websocket_error = websocket_with_timeout(server, nil, 5)
 
             if websocket ~= false then
                 term.write("Using the YouCube server: ")
                 term.setTextColor(colors.blue)
-                print("Mysticlouds YouCube")
+                print("*EinsWlanKabel*:5000")
                 term.setTextColor(colors.white)
                 self.websocket = websocket
                 break
