@@ -32,7 +32,8 @@ end
 -- Look at the [Documentation](https://commandcracker.github.io/YouCube/) for moor information
 -- Contact the server owner on Discord, when the server is down
 local servers = {
-    "ws://146.103.50.18:5000", -- Your server!
+    "ws://136.243.172.92:5000",
+    --"ws://146.103.50.18:5000", -- Your server!
     --"wss://youcube.knijn.one", -- By EmmaKnijn#0043
     --"wss://youcube.onrender.com", -- By Commandcracker#8528
 }
